@@ -7,6 +7,7 @@ This extension converts between measurement units.
 Type "convert `from unit` to `to unit`" and the result will show as a decoration.
 For example, to convert from degrees celsius to fahrenheit type:
 - convert 25 tempC to tempF 
+
 Press spacebar at the end of the line to see the result.
 
 ![](unit-converter.gif)
