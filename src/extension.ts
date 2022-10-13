@@ -60,8 +60,8 @@ function didChangeTextDocument(event: vscode.TextDocumentChangeEvent) {
 			let converted:any;
 			try {
 				converted = qty.to(to);
-			} catch (e){
-				converted = e.message;
+			} catch (error:any){
+				converted = error.message;
 			}
 
 			let decoration: vscode.DecorationOptions = {
