@@ -2,7 +2,7 @@
   "name": "units-converter",
   "displayName": "Measurement Units Converter",
   "description": "Convert between different measurement units like feet -> meter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "markmba",
   "icon": "unit-converter-logo.jpeg",
   "repository": {
@@ -22,10 +22,6 @@
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
-      {
-        "command": "unit-converter.helloWorld",
-        "title": "Hello World"
-      }
     ]
   },
   "scripts": {
