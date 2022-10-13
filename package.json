@@ -1,9 +1,10 @@
 {
-  "name": "unit-converter",
-  "displayName": "Unit Converter",
+  "name": "units-converter",
+  "displayName": "Measurement Units Converter",
   "description": "Convert between different measurement units like feet -> meter",
   "version": "0.0.1",
   "publisher": "markmba",
+  "icon": "unit-converter-logo.jpeg",
   "repository": {
     "type": "git",
     "url": "https://github.com/markjet7/unit-converter"
