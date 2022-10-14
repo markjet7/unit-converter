@@ -31,7 +31,7 @@ function didChangeTextDocument(event: vscode.TextDocumentChangeEvent) {
 	if (e) {
 		let doc = e.document;
 		let sel = e.selection;
-		let lineText = doc.getText(new vscode.Range(sel.start.line, 0, sel.start.line, sel.start.character))+" ";
+		let lineText = doc.getText(new vscode.Range(sel.start.line, 0, sel.start.line, sel.start.character+1))+" ";
 		let myRegexp = /convert (.*?) to (.*)/g;
 		let match = myRegexp.exec(lineText);
 
